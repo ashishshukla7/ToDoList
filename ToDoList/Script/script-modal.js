@@ -5,7 +5,7 @@ window.onload=function(){
 }
 function initialload(){
 	var xmlhttp=new XMLHttpRequest();
-var url="data/Listdata.json"
+var url="Data/Listdata.json"
 
 xmlhttp.onreadystatechange=function(){
 	if(xmlhttp.readyState==4 && xmlhttp.status==200){
